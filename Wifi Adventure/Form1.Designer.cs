@@ -154,6 +154,7 @@
             this.btnUseWaffe.TabIndex = 3;
             this.btnUseWaffe.Text = "Benutze";
             this.btnUseWaffe.UseVisualStyleBackColor = true;
+            this.btnUseWaffe.Click += new System.EventHandler(this.btnUseWaffe_Click);
             // 
             // btnUsePotion
             // 
@@ -163,6 +164,7 @@
             this.btnUsePotion.TabIndex = 3;
             this.btnUsePotion.Text = "Benutze";
             this.btnUsePotion.UseVisualStyleBackColor = true;
+            this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
             // 
             // btnWest
             // 
